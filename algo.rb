@@ -48,7 +48,7 @@ class Pathfinder
       to_visit.shift
     end
 
-    matrix[x2][y2]
+    matrix[x2][y2] == 0 ? -1 : matrix[x2][y2]
   end
 
   def in_bounds(x,y)
