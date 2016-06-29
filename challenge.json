@@ -1,0 +1,18 @@
+{
+  name: "Pathfinding",
+  description: "description.md",
+  problems: [{
+    description: "Test 1",
+    input: [2,2,[[1,2],[3,4]],0,0,1,1],
+    output: [1]
+  },
+  {
+    description: "store a set of subscribers",
+    input: {},
+    output: {},
+    checks: [{
+      check: "type",
+      message: "make sure you convert to the correct type"
+    }
+  }]
+}

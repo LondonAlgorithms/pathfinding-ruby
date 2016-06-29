@@ -1,4 +1,5 @@
 require './algo'
+require 'pry'
 require 'spec_helper'
 
 describe Pathfinder, "solve" do
@@ -6,6 +7,8 @@ describe Pathfinder, "solve" do
 
   context "Test 1" do
     let(:pathfinder) do
+      file = open("1.in")
+
       Pathfinder.new(
         4,5,
         [

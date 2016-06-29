@@ -1,4 +1,4 @@
-class Pathfinder
+class Algorithm
   def initialize(n,m,matrix,x1,y1,x2,y2)
     @n = n
     @m = m
