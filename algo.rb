@@ -55,3 +55,5 @@ class Algorithm
     0 <= x && 0 <= y && x < n && y < m
   end
 end
+
+@algo = Algorithm.new(1,1,[[1]],0,0,1,1)

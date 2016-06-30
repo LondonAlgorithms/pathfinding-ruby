@@ -1,18 +1,34 @@
 {
-  name: "Pathfinding",
-  description: "description.md",
-  problems: [{
-    description: "Test 1",
-    input: [2,2,[[1,2],[3,4]],0,0,1,1],
-    output: [1]
-  },
-  {
-    description: "store a set of subscribers",
-    input: {},
-    output: {},
-    checks: [{
-      check: "type",
-      message: "make sure you convert to the correct type"
+  "name": "Pathfinding",
+  "description": "description.md",
+  "start_point": "thing.json",
+  "problems": [
+    {
+    "description": "Test 1",
+    "functions": [
+      {
+        subscribe,
+        params: myowntestfunction
+      },
+      {
+        "name": "dispatch",
+        "params": {}
+      },
+      {
+        "name": "getState",
+        "params": {}
+      }
+    ],
+    "class_name": "Algorithm",
+    "function_to_test": "solve",
+    "initialize_params": [],
+    "function_params": [2,2,[[1,2],[3,4]],0,0,1,1],
+    "output": 4.0
+    },
+    {
+    "description": "Test 1",
+    "input": [2,2,[[1,2],[3,4]],0,0,1,1],
+    "output": 2
     }
-  }]
+  ]
 }
