@@ -18,3 +18,7 @@ problems.each do |problem|
 end
 
 puts outputs.to_json
+
+allow(thing).to receive(:fn_name)
+thing.fn_name
+expect(thing).to have_received(:fn_name)
