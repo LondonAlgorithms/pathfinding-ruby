@@ -7,8 +7,6 @@ describe Pathfinder, "solve" do
 
   context "Test 1" do
     let(:pathfinder) do
-      file = open("1.in")
-
       Pathfinder.new(
         4,5,
         [
@@ -23,7 +21,8 @@ describe Pathfinder, "solve" do
     end
 
     it "should return the right output" do
-      expect(solution).to eq(7)
+      q = expect(solution).to eq(7)
+      binding.pry
     end
   end
 
