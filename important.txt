@@ -1,0 +1,2 @@
+how to run the algo_test to get the output.json file
+ruby algo_test.rb --out rspec > output.json
