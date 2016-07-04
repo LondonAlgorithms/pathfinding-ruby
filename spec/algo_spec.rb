@@ -1,5 +1,4 @@
 require './algo'
-require 'pry'
 require 'spec_helper'
 
 describe Pathfinder, "solve" do
@@ -21,8 +20,7 @@ describe Pathfinder, "solve" do
     end
 
     it "should return the right output" do
-      q = expect(solution).to eq(7)
-      binding.pry
+      expect(solution).to eq(7)
     end
   end
 
