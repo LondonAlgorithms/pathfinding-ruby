@@ -1,0 +1,27 @@
+{
+  "name": "Pathfinding",
+  "description": "description.md",
+  "class_name": "Algorithm",
+  "challenges": [
+    {
+      "description": "Test 1",
+      "class_initialize_params": [2,2,[[1,2],[3,4]],0,0,1,1],
+      "functions_to_call_on_instance": [
+        {
+          "function_name": "solve",
+          "params": {}
+        }
+      ],
+      "tests": [
+        {
+          "check_name": "equality",
+          "value": 4
+        },
+        {
+          "check_name": "functionCalled",
+          "value": "solve"
+        }
+      ]
+    }
+  ]
+}
